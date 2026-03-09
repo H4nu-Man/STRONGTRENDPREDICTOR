@@ -1,10 +1,10 @@
-# 📈 Stock Price Prediction using Machine Learning
+#  Stock Price Prediction using Machine Learning
 
 This project builds a **machine learning model to predict stock price movement** using historical stock market data. The objective is to determine whether the **next day's stock price will increase or decrease**, generating a **Buy / No Buy signal**. The model is trained using historical stock data from **Tesla Inc.** and applies multiple machine learning algorithms to learn market patterns.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 Stock price prediction is a challenging task because markets are influenced by many factors such as trends, momentum, and investor behavior. This project demonstrates a **complete machine learning workflow**, including data analysis, feature engineering, technical indicators, model training, and prediction.
 
 Main steps in the project:
@@ -17,7 +17,7 @@ Main steps in the project:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The dataset contains historical stock price data of **Tesla Inc.**
 
 **Dataset features:**
@@ -32,7 +32,7 @@ Additional features are created from these values to improve prediction performa
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python  
 - Pandas  
 - NumPy  
@@ -43,7 +43,7 @@ Additional features are created from these values to improve prediction performa
 
 ---
 
-## 🧠 Machine Learning Models
+##  Machine Learning Models
 The following models were trained and compared:
 
 1. **Logistic Regression**  
@@ -54,7 +54,7 @@ Among these models, **XGBoost achieved the best performance**.
 
 ---
 
-## 🔧 Feature Engineering
+##  Feature Engineering
 To improve model accuracy, additional features were created.
 
 ### Price-Based Features
@@ -75,7 +75,7 @@ To improve model accuracy, additional features were created.
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 Models were evaluated using the **ROC-AUC score**.
 
 | Model | ROC-AUC Score |
@@ -88,7 +88,7 @@ XGBoost produced the **best prediction performance**.
 
 ---
 
-## 📉 Data Visualization
+##  Data Visualization
 Exploratory Data Analysis was performed using:
 - Stock closing price trend plots
 - Distribution plots
@@ -99,7 +99,7 @@ These visualizations help understand **stock behavior and feature relationships*
 
 ---
 
-## 💻 User Input Prediction
+##  User Input Prediction
 The project allows users to manually enter stock parameters to generate predictions.
 
 **Example Inputs**
